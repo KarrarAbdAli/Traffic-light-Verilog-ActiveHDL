@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/29/2018 16:24:47
+#Project Location: D:/semister 2/Digital system deesign/Lab/Traffic light roject work/29-1-2018; Project name: Traffic_light
+prj_project new -name "Traffic_light" -impl "impl1" -dev LCMXO2-4000HC-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/semister 2/Digital system deesign/Lab/Traffic light roject work/29-1-2018/main.v"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 1/29/2018 16:32:40

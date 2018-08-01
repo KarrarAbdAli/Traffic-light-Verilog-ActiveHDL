@@ -1,0 +1,22 @@
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\Traffic light Active HDL.adf|]
+Path=
+
+[COMPILESTATUS|.\src\tb.v]
+FileTimeLow=30644381
+Status=Modified
+
+[COMPILESTATUS|.\src\main.v]
+FileTimeLow=30644503
+Status=Modified
+
+[COMPILESTATUS|.\..\..\..\..\Traffic light send from pdf\untitled.asdb]
+FileTimeLow=0
+Status=Modified
+
+[COMPILESTATUS|.\..\..\..\..\Traffic light send from pdf\untitled.awc]
+FileTimeLow=0
+Status=Modified
+

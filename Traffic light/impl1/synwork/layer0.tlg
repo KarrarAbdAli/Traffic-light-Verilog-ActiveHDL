@@ -1,0 +1,23 @@
+Selecting top level module TrafficLight
+@N: CG364 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":1:7:1:18|Synthesizing module TrafficLight in library work.
+@N: CG179 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":65:8:65:8|Removing redundant assignment.
+@N: CL201 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":18:0:18:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 17 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+   01101
+   01110
+   01111
+   10000

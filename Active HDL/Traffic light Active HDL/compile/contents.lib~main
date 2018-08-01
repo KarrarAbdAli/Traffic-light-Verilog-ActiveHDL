@@ -1,0 +1,7 @@
+3
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "./../src/main.v" 1 TrafficLight
+~A 1 "./../src/main.v" 1 TrafficLight
+~M 3 "./../src/tb.v" 2 Traffic_tb
+~A 1 "./../src/tb.v" 2 Traffic_tb

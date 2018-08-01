@@ -1,0 +1,366 @@
+# Mon Jan 29 16:30:21 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Encoding state machine state[16:0] (in view: work.TrafficLight(verilog))
+original code -> new code
+   00000 -> 00000000000000001
+   00001 -> 00000000000000010
+   00010 -> 00000000000000100
+   00011 -> 00000000000001000
+   00100 -> 00000000000010000
+   00101 -> 00000000000100000
+   00110 -> 00000000001000000
+   00111 -> 00000000010000000
+   01000 -> 00000000100000000
+   01001 -> 00000001000000000
+   01010 -> 00000010000000000
+   01011 -> 00000100000000000
+   01100 -> 00001000000000000
+   01101 -> 00010000000000000
+   01110 -> 00100000000000000
+   01111 -> 01000000000000000
+   10000 -> 10000000000000000
+@N: MO231 :"d:\semister 2\digital system deesign\lab\traffic light roject work\29-1-2018\main.v":53:0:53:5|Found counter in view:work.TrafficLight(verilog) instance C[31:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   983.75ns		  59 /        53
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 53 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK                 port                   53         C[0]           
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 145MB)
+
+Writing Analyst data base D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\impl1\synwork\Traffic_light_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\impl1\Traffic_light_impl1.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+
+@W: MT420 |Found inferred clock TrafficLight|CLK with period 1000.00ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Jan 29 16:30:23 2018
+#
+
+
+Top view:               TrafficLight
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 985.332
+
+                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+TrafficLight|CLK     1.0 MHz       68.2 MHz      1000.000      14.668        985.332     inferred     Inferred_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+TrafficLight|CLK  TrafficLight|CLK  |  1000.000    985.332  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TrafficLight|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                           Arrival            
+Instance     Reference            Type        Pin     Net       Time        Slack  
+             Clock                                                                 
+-----------------------------------------------------------------------------------
+C[0]         TrafficLight|CLK     FD1P3DX     Q       C[0]      1.044       985.332
+C[1]         TrafficLight|CLK     FD1P3DX     Q       C[1]      1.044       985.332
+C[5]         TrafficLight|CLK     FD1P3DX     Q       C[5]      1.044       985.332
+C[6]         TrafficLight|CLK     FD1P3DX     Q       C[6]      1.044       985.332
+C[7]         TrafficLight|CLK     FD1P3DX     Q       C[7]      1.044       985.332
+C[8]         TrafficLight|CLK     FD1P3DX     Q       C[8]      1.044       985.332
+C[9]         TrafficLight|CLK     FD1P3DX     Q       C[9]      1.044       985.332
+C[10]        TrafficLight|CLK     FD1P3DX     Q       C[10]     1.044       985.332
+C[11]        TrafficLight|CLK     FD1P3DX     Q       C[11]     1.044       985.332
+C[12]        TrafficLight|CLK     FD1P3DX     Q       C[12]     1.044       985.332
+===================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                             Required            
+Instance     Reference            Type        Pin     Net         Time         Slack  
+             Clock                                                                    
+--------------------------------------------------------------------------------------
+C[31]        TrafficLight|CLK     FD1P3DX     D       C_s[31]     999.894      985.332
+C[29]        TrafficLight|CLK     FD1P3DX     D       C_s[29]     999.894      985.475
+C[30]        TrafficLight|CLK     FD1P3DX     D       C_s[30]     999.894      985.475
+C[27]        TrafficLight|CLK     FD1P3DX     D       C_s[27]     999.894      985.617
+C[28]        TrafficLight|CLK     FD1P3DX     D       C_s[28]     999.894      985.617
+C[25]        TrafficLight|CLK     FD1P3DX     D       C_s[25]     999.894      985.760
+C[26]        TrafficLight|CLK     FD1P3DX     D       C_s[26]     999.894      985.760
+C[23]        TrafficLight|CLK     FD1P3DX     D       C_s[23]     999.894      985.903
+C[24]        TrafficLight|CLK     FD1P3DX     D       C_s[24]     999.894      985.903
+C[21]        TrafficLight|CLK     FD1P3DX     D       C_s[21]     999.894      986.046
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      14.563
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     985.332
+
+    Number of logic level(s):                21
+    Starting point:                          C[0] / Q
+    Ending point:                            C[31] / D
+    The start point is clocked by            TrafficLight|CLK [rising] on pin CK
+    The end   point is clocked by            TrafficLight|CLK [rising] on pin CK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+C[0]                                 FD1P3DX      Q        Out     1.044     1.044       -         
+C[0]                                 Net          -        -       -         -           2         
+state_ns_16_0_.next_state21_23       ORCALUT4     A        In      0.000     1.044       -         
+state_ns_16_0_.next_state21_23       ORCALUT4     Z        Out     1.017     2.061       -         
+state_ns_16_0_.next_state21_23       Net          -        -       -         -           1         
+state_ns_16_0_.next_state21_27       ORCALUT4     D        In      0.000     2.061       -         
+state_ns_16_0_.next_state21_27       ORCALUT4     Z        Out     1.017     3.077       -         
+state_ns_16_0_.next_state21_27       Net          -        -       -         -           1         
+state_ns_16_0_.next_state21          ORCALUT4     C        In      0.000     3.077       -         
+state_ns_16_0_.next_state21          ORCALUT4     Z        Out     1.321     4.398       -         
+next_state21                         Net          -        -       -         -           19        
+state_ns_16_0_.next_state_0_3[0]     ORCALUT4     A        In      0.000     4.398       -         
+state_ns_16_0_.next_state_0_3[0]     ORCALUT4     Z        Out     1.017     5.415       -         
+state_ns_16_0_.next_state_0_3[0]     Net          -        -       -         -           1         
+state_ns_16_0_.next_state_0[0]       ORCALUT4     D        In      0.000     5.415       -         
+state_ns_16_0_.next_state_0[0]       ORCALUT4     Z        Out     1.089     6.504       -         
+next_state[0]                        Net          -        -       -         -           2         
+C_cnst_sn.m3_e_69                    ORCALUT4     A        In      0.000     6.504       -         
+C_cnst_sn.m3_e_69                    ORCALUT4     Z        Out     1.225     7.729       -         
+N_308                                Net          -        -       -         -           5         
+C_cnst_sn.m3_e                       ORCALUT4     C        In      0.000     7.729       -         
+C_cnst_sn.m3_e                       ORCALUT4     Z        Out     1.153     8.881       -         
+un1_next_state_4_sn                  Net          -        -       -         -           3         
+state_ns_16_0_.C_7_i[17]             ORCALUT4     A        In      0.000     8.881       -         
+state_ns_16_0_.C_7_i[17]             ORCALUT4     Z        Out     1.017     9.898       -         
+C_7_i[17]                            Net          -        -       -         -           1         
+C_cry_0[7]                           CCU2D        B1       In      0.000     9.898       -         
+C_cry_0[7]                           CCU2D        COUT     Out     1.544     11.443      -         
+C_cry[8]                             Net          -        -       -         -           1         
+C_cry_0[9]                           CCU2D        CIN      In      0.000     11.443      -         
+C_cry_0[9]                           CCU2D        COUT     Out     0.143     11.585      -         
+C_cry[10]                            Net          -        -       -         -           1         
+C_cry_0[11]                          CCU2D        CIN      In      0.000     11.585      -         
+C_cry_0[11]                          CCU2D        COUT     Out     0.143     11.728      -         
+C_cry[12]                            Net          -        -       -         -           1         
+C_cry_0[13]                          CCU2D        CIN      In      0.000     11.728      -         
+C_cry_0[13]                          CCU2D        COUT     Out     0.143     11.871      -         
+C_cry[14]                            Net          -        -       -         -           1         
+C_cry_0[15]                          CCU2D        CIN      In      0.000     11.871      -         
+C_cry_0[15]                          CCU2D        COUT     Out     0.143     12.014      -         
+C_cry[16]                            Net          -        -       -         -           1         
+C_cry_0[17]                          CCU2D        CIN      In      0.000     12.014      -         
+C_cry_0[17]                          CCU2D        COUT     Out     0.143     12.157      -         
+C_cry[18]                            Net          -        -       -         -           1         
+C_cry_0[19]                          CCU2D        CIN      In      0.000     12.157      -         
+C_cry_0[19]                          CCU2D        COUT     Out     0.143     12.300      -         
+C_cry[20]                            Net          -        -       -         -           1         
+C_cry_0[21]                          CCU2D        CIN      In      0.000     12.300      -         
+C_cry_0[21]                          CCU2D        COUT     Out     0.143     12.442      -         
+C_cry[22]                            Net          -        -       -         -           1         
+C_cry_0[23]                          CCU2D        CIN      In      0.000     12.442      -         
+C_cry_0[23]                          CCU2D        COUT     Out     0.143     12.585      -         
+C_cry[24]                            Net          -        -       -         -           1         
+C_cry_0[25]                          CCU2D        CIN      In      0.000     12.585      -         
+C_cry_0[25]                          CCU2D        COUT     Out     0.143     12.728      -         
+C_cry[26]                            Net          -        -       -         -           1         
+C_cry_0[27]                          CCU2D        CIN      In      0.000     12.728      -         
+C_cry_0[27]                          CCU2D        COUT     Out     0.143     12.871      -         
+C_cry[28]                            Net          -        -       -         -           1         
+C_cry_0[29]                          CCU2D        CIN      In      0.000     12.871      -         
+C_cry_0[29]                          CCU2D        COUT     Out     0.143     13.014      -         
+C_cry[30]                            Net          -        -       -         -           1         
+C_s_0[31]                            CCU2D        CIN      In      0.000     13.014      -         
+C_s_0[31]                            CCU2D        S0       Out     1.549     14.563      -         
+C_s[31]                              Net          -        -       -         -           1         
+C[31]                                FD1P3DX      D        In      0.000     14.563      -         
+===================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-5
+
+Register bits: 53 of 4320 (1%)
+PIC Latch:       0
+I/O cells:       9
+
+
+Details:
+CCU2D:          17
+FD1P3DX:        33
+FD1S3BX:        1
+FD1S3DX:        16
+GSR:            1
+IB:             4
+OB:             5
+OFS1P3DX:       3
+ORCALUT4:       58
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 32MB peak: 149MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jan 29 16:30:23 2018
+
+###########################################################]

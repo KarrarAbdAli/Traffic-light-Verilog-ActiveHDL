@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+Traffic light Active HDL=Traffic light Active HDL.adf
+[Settings]
+Active=Traffic light Active HDL
+[Expand]
+traffic light active hdl=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

@@ -1,0 +1,2 @@
+@W: CG1273 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":9:11:9:13|An input port (port RST) is the target of an assignment - please check if this is intentional
+

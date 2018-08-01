@@ -1,0 +1,58 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Traffic_light_Active_HDL
+
+[Library]
+Traffic_light_Active_HDL=.\Traffic light Active HDL\Traffic light Active HDL.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Active_lib=
+traffic_light_active_hdl=.
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/tb.v=-1
+/main.v=-1
+/..\..\..\..\..\Traffic light send from pdf\untitled.asdb=-1
+/..\..\..\..\..\Traffic light send from pdf\untitled.awc=-1
+
+[Files.Data]
+.\src\tb.v=Verilog Source Code
+.\src\main.v=Verilog Source Code
+.\..\..\..\..\Traffic light send from pdf\untitled.asdb=Accelerated Waveform File
+.\..\..\..\..\Traffic light send from pdf\untitled.awc=Accelerated Waveform Configuration
+

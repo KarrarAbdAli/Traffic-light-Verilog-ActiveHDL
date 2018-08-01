@@ -1,0 +1,130 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-RM39ALH2
+
+# Mon Jan 29 16:29:20 2018
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Program Files (x86)\Diamond\diamond\3.10_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v" (library work)
+Verilog syntax check successful!
+Selecting top level module TrafficLight
+@N: CG364 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":1:7:1:18|Synthesizing module TrafficLight in library work.
+@W: CG1273 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":9:11:9:13|An input port (port RST) is the target of an assignment - please check if this is intentional
+@N: CG179 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":65:8:65:8|Removing redundant assignment.
+@N: CL201 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":18:0:18:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 17 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+   01101
+   01110
+   01111
+   10000
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jan 29 16:29:21 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+@N: NF107 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":1:7:1:18|Selected library: work cell: TrafficLight view verilog as top level
+@N: NF107 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":1:7:1:18|Selected library: work cell: TrafficLight view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jan 29 16:29:21 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jan 29 16:29:22 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+@N: NF107 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":1:7:1:18|Selected library: work cell: TrafficLight view verilog as top level
+@N: NF107 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":1:7:1:18|Selected library: work cell: TrafficLight view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jan 29 16:29:23 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Jan 29 16:29:23 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\impl1\Traffic_light_impl1_scck.rpt 
+Printing clock  summary report in "D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\impl1\Traffic_light_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@A: BN321 :"d:\semister 2\digital system deesign\lab\traffic light roject work\29-1-2018\main.v":9:11:9:13|Found multiple drivers on net RST (in view: work.TrafficLight(verilog)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net RST (in view: work.TrafficLight(verilog)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:O[0] inst:false of PrimLib.false(prim)
+Connection 2: Direction is (Output ) port:RST of work.TrafficLight(verilog)
+@E: BN314 :"d:\semister 2\digital system deesign\lab\traffic light roject work\29-1-2018\main.v":9:11:9:13|Net GND in work.TrafficLight(verilog) has multiple drivers. 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jan 29 16:29:24 2018
+
+###########################################################]

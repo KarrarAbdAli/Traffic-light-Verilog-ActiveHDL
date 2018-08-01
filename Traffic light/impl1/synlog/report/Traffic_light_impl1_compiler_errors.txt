@@ -1,0 +1,2 @@
+@E: CG906 :"D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\main.v":18:23:18:33|Reference to unknown variable RST.
+

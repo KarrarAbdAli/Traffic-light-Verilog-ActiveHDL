@@ -1,0 +1,15 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+main=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\tb.v]
+FileTimeLow=30644381
+Status=Compiled
+[COMPILESTATUS|.\src\main.v]
+FileTimeLow=30644381
+Status=Modified
+[COMPILESTATUS|D:\semister 2\Digital system deesign\Traffic light send from pdf\untitled.asdb]
+FileTimeLow=30644381
+Status=Modified
+[COMPILESTATUS|D:\semister 2\Digital system deesign\Traffic light send from pdf\untitled.awc]
+FileTimeLow=30644381
+Status=Modified

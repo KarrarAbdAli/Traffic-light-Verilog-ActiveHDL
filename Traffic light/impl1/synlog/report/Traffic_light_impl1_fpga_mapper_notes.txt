@@ -1,0 +1,8 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO231 :"d:\semister 2\digital system deesign\lab\traffic light roject work\29-1-2018\main.v":53:0:53:5|Found counter in view:work.TrafficLight(verilog) instance C[31:0] 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\semister 2\Digital system deesign\Lab\Traffic light roject work\29-1-2018\impl1\Traffic_light_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
